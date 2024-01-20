@@ -1,0 +1,129 @@
+
+body{
+    background: #ffffff5d;
+}
+
+#menu{
+ text-align: center;
+ font-size: 1.4em;
+ padding: 20px;
+margin: 20px;
+border: 1px solid grey;
+}
+
+#menu a{
+text-decoration: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#cabecalho{
+background: rgb(255, 255, 255);
+}
+
+#disp{
+
+    display: flex;
+    flex-direction: row;
+}
+
+#disp li:not(:last-child) {
+    margin-right: 83px; /* Adiciona margem entre as imagens, exceto para a última */
+
+margin-bottom: 60px;
+}
+
+a:link, a:visited{
+    color: #2562d4;
+    padding: 8px 12px;
+}
+
+a:hover{
+    color: #2562d4;
+    background: #3290cf;
+
+}
+
+.oi{
+
+    text-align: center;
+    font-style: italic;
+    font-size: 2.8em;
+    color: #516aaf;
+}
+
+#logo{
+
+    padding: 20px;
+    margin: 20px;
+}
+
+#rodape{
+    clear: both;
+    background: #e4e2e2d7;
+    text-align: center;
+    margin: 0px;
+    font-size: 1.3em;
+
+}
+
+#menu2{
+    text-align: right;
+    font-size: 1.2em;
+    padding: 20px;
+   margin: 0px;
+   border: 1px solid grey;
+   margin-top: 30px;
+ 
+   }
+
+   #menu2 a:link, a:visited{
+    color: #2562d4;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#menu2 a:hover{
+    color: #2562d4;
+    background: #3290cf;
+
+}
+
+#rodapeup{
+    clear: both;
+    background: #1938c2d7;
+    text-align: right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 1.4em;
+
+}
+
+#menu3{
+    text-align: right;
+    font-size: 0.4em;
+    padding: 0px;
+   margin: 0px;
+   border: 1px solid rgb(0, 0, 0);
+   margin-top: 0px;
+ 
+   }
+
+   #menu3 a:link, a:visited{
+    color: #000000;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#menu3 a:hover{
+    color: #000000;
+    background: #3290cf;
+
+}
+
+.flux{
+
+    padding: 0px;
+    margin-top: 0px;
+    flex-direction: row;
+}
